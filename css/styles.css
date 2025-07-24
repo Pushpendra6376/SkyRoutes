@@ -7,9 +7,74 @@
 
 }
 
+/* ################################  HTML element Styling   ################ */
+
+
+html{
+    font-size: 62.5%;
+}
+
+
 body{
     font-family: 'Montserrat', san-sarif;
 }
+
+ul li {
+    list-style: none;
+}
+
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+p, li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
+h1, h2, h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+/* #################-- utility classes --################ */
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.lg-heading{
+    font-size: 3.5rem;
+}
+
+.md-heading{
+    font-size: 2.2rem;
+}
+
+.text-red{
+    color: #e63946;
+}
+
+.text-light{
+    color: #f4f4f4;
+}
+
+.text-black{
+    color: #333;
+}
+
+.text-gray{
+    color: gray;
+}
+
+
+
+/* ###############################    header Stlying  ############### */
 
 .header{
     height: 95vh;
@@ -21,12 +86,7 @@ body{
 }
 
 .navbar{
-    border: 2px solid white;
-}
-
-.header .logo, 
-.header .navbar a{
-    color: white;
+    padding: 1rem;
 }
 
 .header .navbar .logo{
@@ -35,11 +95,28 @@ body{
 
 .header .navbar .nav-items{
     float: right;
+    margin-top: 1rem;
 }
 
 .header .navbar .nav-item{
     display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
 }
+
+.navbar a:link, .navbar a:visited{
+    color: #f4f4f4;
+}
+
+.navbar a{
+    padding: 0.3rem;
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+
 .navbar::after{
     content: '';
     display: block;
