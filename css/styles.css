@@ -156,3 +156,43 @@ h1, h2, h3{
     text-transform: uppercase;
 }
 
+/* ######################## showcase section styling ##################### */
+
+.showcase{
+    background-color: #ddd;
+    padding: 10rem 0;
+}
+
+.row{
+    background-color: white;
+    height: 350px;
+}
+
+.row1{
+    margin-bottom: 10rem;
+}
+
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+}
+
+.row .img-box{
+    height: 100%;
+}
+
+.row .text-box{
+    padding: 3rem;
+}
+
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
