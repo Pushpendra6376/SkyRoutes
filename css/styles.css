@@ -85,6 +85,19 @@ h1, h2, h3{
     background-color: #fff;
 }
 
+.btn-primary:hover{
+    background-color: #ddd;
+}
+
+.btn-secondary{
+    border: 2px solid red;
+    border-radius: 1.2em;
+}
+
+.btn-secondary:hover{
+    background-color: #f1cacd;
+}
+
 /* ###############################    header Stlying  ############### */
 
 .header{
@@ -166,6 +179,7 @@ h1, h2, h3{
 .row{
     background-color: white;
     height: 350px;
+    box-shadow: 0px 0px 20px 0px #aaa;
 }
 
 .row1{
@@ -195,4 +209,45 @@ h1, h2, h3{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ######################## FEATURE SECTION STYLING  ################## */
+
+.features{
+    padding: 10rem 0;
+}
+
+.box-wrapper{
+    box-shadow: 5px 5px 20px 0px #00000065;
+
+}
+
+.box{
+    width: 33.33333%;
+    float: left;
+    padding: 2rem;
+    text-align: center;
+}
+
+.box-1, .box-3{
+    background-color: #2d2c2c;
+    color: #fff;
+}
+
+.box-2{
+    background-color: #dc3543;
+    color: #fff;
+}
+
+.box-wrapper::after {
+    content: '';
+    display: block;
+    clear: both;
 }
