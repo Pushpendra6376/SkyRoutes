@@ -251,3 +251,39 @@ h1, h2, h3{
     display: block;
     clear: both;
 }
+
+
+/* ###########################  footer styling  ##################### */
+
+.footer{
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.social-media-links i {
+    margin: 0 1rem;
+    color: #f4f4f4;
+    transition: color 0.3s ease;
+    font-size: 2.5rem;
+}
+
+.social-media-links i:hover {
+    color: #e63946;
+}
+
+.footer p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.footer .social-media-links {
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
