@@ -292,6 +292,7 @@ h1, h2, h3{
 
 .about{
     padding: 5rem 0;
+    margin: 0 auto;
 }
 
 .about-heading{
@@ -299,7 +300,111 @@ h1, h2, h3{
     width: 100%;
 }
 
+/* ########################## about wrapper ###################### */
+
+.about-wrapper{
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.about-wrapper .left{
+    float: left;
+    width: 50%;
+}
+
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
+
+.about-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.about-wrapper li::before{
+    content: '✓';
+    color: #e63946;
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
 
 
+/* ######################## count styling ###################### */
 
+.counts{
+    margin: 3rem 0;
+}
 
+.count-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.counts::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.count-item span{
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #e63946;
+}
+
+.count-item p{
+    font-size: 1.6rem;
+    color: #333;
+}
+
+/* ####################### CTA SECTION STYLING ###################### */
+
+.cta-banner{
+    background-color: #e63946;
+    color: #f4f4f4;
+    padding: 1rem 0;
+    box-shadow: 5px 5px 10px 0px #00000057;
+    
+}
+
+.cta-banner-left{
+    float: left;
+    width: 70%;
+    padding-left: 2rem;
+}
+
+.cta-banner-right{
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+
+.cta-line{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1.6rem;
+}
+
+.btn-cta{
+    text-align: center;
+    display: inline-block;
+    padding: 0.3em 1.5em;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    color: #e63946;
+    border-radius: 1.2em;
+}
+
+.cta-banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
