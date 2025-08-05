@@ -408,3 +408,31 @@ h1, h2, h3{
     display: block;
     clear: both;
 }
+
+/* ###################### Contact Section Styling ###################### */
+
+.contact-form{
+    padding: 5rem 0;
+}
+
+.form-wrapper{
+    border: 10px solid #e63946;
+}
+
+.form-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.company-address{
+    border: 4px solid green;
+    width: 49%;
+    float: left;
+}
+
+.form{
+    border: 4px dotted blue;
+    width: 49%;
+    float: right;
+}
