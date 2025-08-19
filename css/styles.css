@@ -501,3 +501,418 @@ h1, h2, h3{
 .form{
     padding: 2rem;
 }
+
+/* ############### media Queries ################## */
+
+@media (max-width:500px){
+    html{
+        font-size: 50%;
+    }
+
+    .header-content .main-heading{
+        display: none;
+    }
+
+    .navbar .nav-items, .navbar .logo{
+        float: none;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .header{
+        height: 80vh;
+    }
+
+    .header-content{
+        top: 40%;
+    }
+
+    .row .img-box, .row .text-box{
+        width: 100%;
+        float: none;
+    }
+
+    .row1 .img-box, .row2 .text-box{
+        float: none;
+    }
+
+    .row1 .text-box, .row2 .img-box{
+        float: none;
+    }
+
+    .row{
+        height: auto;
+    }
+
+    .box{
+        width: 100%;
+        float: none;
+        margin-bottom: 2rem;
+    }
+
+    .about-wrapper .left, .about-wrapper .right{
+        width: 100%;
+        float: none;
+    }
+
+    .cta-banner-left, .cta-banner-right{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .cta-banner-left{
+        padding: 0;
+    }
+
+    .form-wrapper .company-address, .form-wrapper .form{
+        width: 100%;
+        float: none;
+    }
+    .form-wrapper .company-address img{
+        max-width: 100%;
+        min-height: 30rem;
+    }
+
+    .form-wrapper .company-address{
+        margin-bottom: 2rem;
+    }
+
+    .form-wrapper .form{
+        padding: 1rem;
+    }
+
+    .form input, .form textarea{
+        font-size: 1.4rem;
+    }
+
+    .form-btn{
+        font-size: 1.4rem;
+        padding: 0.5em 1em;
+    }
+
+    .form h1::after{
+        width: 50%;
+    }
+}
+
+@media (min-witdh:501px) and (max-width: 768px) {
+    .lg-heading {
+        font-size: 2.5rem;
+    }
+
+    .md-heading {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        padding: 0.4em 1.2em;
+    }
+
+    .navbar .nav-item {
+        padding: 0.8rem;
+    }
+
+    .header-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-content p {
+        font-size: 1.4rem;
+    }
+
+    .row {
+        height: auto;
+    }
+
+    .row .img-box, .row .text-box {
+        width: 100%;
+        float: none;
+    }
+
+    .row1 .img-box, .row2 .text-box {
+        float: none;
+    }
+
+    .row1 .text-box, .row2 .img-box {
+        float: none;
+    }
+
+    .box {
+        width: 100%;
+        float: none;
+        margin-bottom: 2rem;
+    }
+    .box-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-wrapper .box {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .about-wrapper .left, .about-wrapper .right {
+        width: 100%;
+        float: none;
+    }
+
+    .cta-banner-left, .cta-banner-right {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .cta-banner-left {
+        padding: 0;
+    }
+
+    .form-wrapper .company-address, .form-wrapper .form {
+        width: 100%;
+        float: none;
+    }
+
+    .form-wrapper .company-address img {
+        max-width: 100%;
+        min-height: 30rem;
+    }
+
+    .form-wrapper .company-address {
+        margin-bottom: 2rem;
+    }
+
+    .form-wrapper .form {
+        padding: 1rem;
+    }
+
+    .form input, .form textarea {
+        font-size: 1.4rem;
+    }
+
+    .form-btn {
+        font-size: 1.4rem;
+        padding: 0.5em 1em;
+    }
+
+    .form h1::after {
+        width: 50%;
+    }
+
+    .navbar .nav-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-item {
+        padding: 0.5rem 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .logo {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .header-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-content p {
+        font-size: 1.4rem;
+    }
+
+    .lg-heading {
+        font-size: 2.5rem;
+    }
+
+    .md-heading {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        padding: 0.4em 1.2em;
+    }
+}
+
+@media (min-width: 769px) {
+    .lg-heading {
+        font-size: 3.5rem;
+    }
+
+    .md-heading {
+        font-size: 2.2rem;
+    }
+
+    .btn {
+        padding: 0.5em 1.5em;
+    }
+
+    .navbar .nav-item {
+        padding: 1rem;
+    }
+
+    .header-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .header-content p {
+        font-size: 1.6rem;
+    }
+
+    .row {
+        height: 350px;
+    }
+
+    .row .img-box, .row .text-box {
+        width: 50%;
+        float: left;
+    }
+
+    .row1 .img-box, .row2 .text-box {
+        float: left;
+    }
+
+    .row1 .text-box, .row2 .img-box {
+        float: right;
+    }
+
+    .box {
+        width: 33.33333%;
+        float: left;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .box-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-wrapper .box {
+        width: 33.33333%;
+        margin-bottom: 2rem;
+    }
+
+    .about-wrapper .left, .about-wrapper .right {
+        width: 50%;
+        float: left;
+    }
+
+    .cta-banner-left, .cta-banner-right {
+        width: 70%;
+        float: left;
+        text-align: center;
+    }
+
+    .cta-banner-right {
+        width: 30%;
+        float: right;
+        text-align: center;
+    }
+
+    .form-wrapper .company-address, .form-wrapper .form {
+        width: 49%;
+        float: left;
+    }
+
+    .form-wrapper .company-address img {
+        max-width: 90%;
+        min-height: 40rem;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    .form-wrapper .company-address {
+        margin-bottom: 0;
+    }
+
+    .form-wrapper .form {
+        padding: 2rem;
+    }
+
+    .form input, .form textarea {
+        font-size: 1.6rem;
+    }
+
+    .form-btn {
+        font-size: 1.6rem;
+        padding: 0.5em 1.5em;
+    }
+
+    .form h1::after {
+        width: 100%;
+    }
+}
+
+/* ========================
+   RESPONSIVE MEDIA QUERIES
+   ======================== */
+
+/* Extra Small Devices (Keypad phones, <400px) */
+@media (max-width: 400px) {
+  body {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .navbar, .row, .about-wrapper, .cta-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box, .col, .column {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .lg-heading { font-size: 1.8rem; }
+  .md-heading { font-size: 1.4rem; }
+  .btn { padding: 0.4em 0.8em; font-size: 0.9rem; }
+}
+
+/* Small Devices (Smartphones, up to 768px) */
+@media (max-width: 768px) {
+  .navbar, .row, .about-wrapper, .cta-banner {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+
+  .box, .col, .column {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  .lg-heading { font-size: 2.2rem; }
+  .md-heading { font-size: 1.6rem; }
+  p { font-size: 0.95rem; }
+}
+
+/* Medium Devices (Tablets & small laptops, up to 1024px) */
+@media (max-width: 1024px) {
+  .lg-heading { font-size: 2.6rem; }
+  .md-heading { font-size: 1.9rem; }
+  .row, .about-wrapper, .cta-banner { flex-wrap: wrap; }
+  .box { flex: 1 1 45%; margin: 1%; }
+}
+
+/* Large Devices (Desktops, >1025px) */
+@media (min-width: 1025px) {
+  .container { max-width: 1200px; margin: auto; }
+}
